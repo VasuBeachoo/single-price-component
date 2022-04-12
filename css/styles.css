@@ -33,7 +33,7 @@ body {
   font-family: "Karla", sans-serif;
   border-radius: 8px;
   width: 650px;
-  margin: 25px;
+  margin: 35px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
@@ -157,4 +157,37 @@ body {
   letter-spacing: 0.05px;
   opacity: 0.8;
   margin: 2px;
+}
+
+@media (max-width: 720px) {
+  .component {
+    width: 390px;
+  }
+
+  .section {
+    padding: 30px;
+  }
+
+  .top-section .section-small-text {
+    margin-top: 8px;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+  }
+
+  .price-section {
+    width: auto;
+    border-radius: 0;
+  }
+
+  .signup-btn {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .why-us-section {
+    width: auto;
+    border-radius: 0 0 8px 8px;
+  }
 }
